@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="@dimen/key_width"
+    android:verticalGap="0px">
+    <Row>
+        <Key android:codes="0x094D" android:keyLabel="्" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x093E" android:keyLabel="ा"/>
+        <Key android:codes="0x093F" android:keyLabel="ि"/>
+        <Key android:codes="0x0940" android:keyLabel="ी"/>
+        <Key android:codes="0x0941" android:keyLabel="ु"/>
+        <Key android:codes="0x0942" android:keyLabel="ू"/>
+        <Key android:codes="0x0947" android:keyLabel="े"/>
+        <Key android:codes="0x0948" android:keyLabel="ै"/>
+        <Key android:codes="0x094B" android:keyLabel="ो"/>
+        <Key android:codes="0x094C" android:keyLabel="ौ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x0915" android:keyLabel="क" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0916" android:keyLabel="ख"/>
+        <Key android:codes="0x0917" android:keyLabel="ग"/>
+        <Key android:codes="0x0918" android:keyLabel="घ"/>
+        <Key android:codes="0x091A" android:keyLabel="च"/>
+        <Key android:codes="0x091B" android:keyLabel="छ"/>
+        <Key android:codes="0x091C" android:keyLabel="ज"/>
+        <Key android:codes="0x091D" android:keyLabel="झ"/>
+        <Key android:codes="0x0902" android:keyLabel="ं"/>
+        <Key android:codes="0x0903" android:keyLabel="ः" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x091F" android:keyLabel="ट" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0920" android:keyLabel="ठ"/>
+        <Key android:codes="0x0921" android:keyLabel="ड"/>
+        <Key android:codes="0x0922" android:keyLabel="ढ"/>
+        <Key android:codes="0x0924" android:keyLabel="त"/>
+        <Key android:codes="0x0925" android:keyLabel="थ"/>
+        <Key android:codes="0x0926" android:keyLabel="द"/>
+        <Key android:codes="0x0927" android:keyLabel="ध"/>
+        <Key android:codes="0x0928" android:keyLabel="न"/>
+        <Key android:codes="0x092A" android:keyLabel="प" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-2" android:keyIcon="@drawable/ic_baseline_keyboard_capslock_24" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x092B" android:keyLabel="फ"/>
+        <Key android:codes="0x092C" android:keyLabel="ब"/>
+        <Key android:codes="0x092D" android:keyLabel="भ"/>
+        <Key android:codes="0x092E" android:keyLabel="म"/>
+        <Key android:codes="0x092F" android:keyLabel="य"/>
+        <Key android:codes="0x0930" android:keyLabel="र"/>
+        <Key android:codes="0x0932" android:keyLabel="ल"/>
+        <Key android:codes="0x0935" android:keyLabel="व"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_baseline_keyboard_backspace_24"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0x0936" android:keyLabel="श" android:popupCharacters="स" android:popupKeyboard="@xml/commapopup"/>
+        <Key android:codes="-101" android:keyIcon="@drawable/ic_baseline_language_24" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyIcon="@drawable/ic_baseline_space_bar_24" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="0x0939" android:keyLabel="ह"/>
+        <Key android:codes="124"
+            android:keyLabel="|"
+            android:popupCharacters=",!.,?"
+            android:popupKeyboard="@xml/commapopup"
+            android:keyWidth="10%p"/>
+        <Key android:codes="-4"
+            android:keyIcon="@drawable/ic_baseline_keyboard_return_24"
+            android:keyWidth="20%p"
+            android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

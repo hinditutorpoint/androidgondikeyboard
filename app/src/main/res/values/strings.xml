@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gondi Keyboard</string>
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="subtype_gon_IN">Gondi Keyboard (India)</string>
+    <string name="subtype_gong_IN">Gunjala Keyboard (India)</string>
+    <string name="subtype_en_US">English Keyboard (US)</string>
+    <string name="subtype_hi_IN">Hindi (India)</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Nest Keys</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+</resources>
