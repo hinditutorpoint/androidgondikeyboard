@@ -9,5 +9,3 @@ Plan to develop
 
 ###### License
 Standard Apache 2.0
-
-Copyright 2021-2022 ** Hinditutorpoint **.
